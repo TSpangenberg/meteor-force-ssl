@@ -1,6 +1,8 @@
 Package.describe({
+  name: 'meteorblackbelt:force-ssl',
   summary: "Require this application to use HTTPS",
-  version: "1.0.4"
+  version: "1.0.4",
+  documentation: null
 });
 
 Package.onUse(function (api) {

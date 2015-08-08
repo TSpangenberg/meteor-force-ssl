@@ -72,3 +72,4 @@ httpServer.addListener('request', function (req, res) {
 //
 // For now, this package allows raw unencrypted DDP connections over
 // websockets.
+}
