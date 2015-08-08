@@ -6,11 +6,11 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.use('webapp', 'server');
-  api.use('underscore');
+  api.use('webapp@1.2.0');
+  api.use('underscore@1.0.3');
   // make sure we come after livedata, so we load after the sockjs
   // server has been instantiated.
-  api.use('ddp', 'server');
+  api.use('ddp@1.1.0');
 
   api.addFiles('force_ssl_common.js', ['client', 'server']);
   api.addFiles('force_ssl_server.js', 'server');

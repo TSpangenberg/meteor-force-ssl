@@ -16,3 +16,5 @@ bundle must set the standard `x-forwarded-proto` header for the
 Applications deployed to `meteor.com` subdomains with
 `meteor deploy` are automatically served via HTTPS using Meteor's
 certificate.
+
+Default behaviour can be overridden with Meteor.settings via `forceSSL` option.
